@@ -288,12 +288,12 @@
 			COLOR : 'hsl(%hue, 80%, 60%)',
 			PARTICLE_COUNT : 300,
 			DELTA_OPACITY : 0.01,
-			RADIUS : 2,
-			VELOCITY : -3,
+			RADIUS : 2, // 半径
+			VELOCITY : -10, //速度
 			WAIT_COUNT_RANGE : {min : 30, max : 60},
-			THRESHOLD : 50,
-			DELTA_THETA : Math.PI / 10,
-			GRAVITY : 0.002,
+			THRESHOLD : 50,  // threshold 临界值
+			DELTA_THETA : Math.PI / 10, 
+			GRAVITY : 0.002, // 重力
 			
 			init : function(){
 				this.setParameters();
@@ -373,7 +373,7 @@
 		};
 		PARTICLE.prototype = {
 			RADIUS : 1.5,
-			VELOCITY_RANGE : {min : 0, max : 3},
+			VELOCITY_RANGE : {min : 0, max : 5},
 			GRAVITY : 0.02,
 			FRICTION : 0.98,
 			
