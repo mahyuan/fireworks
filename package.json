@@ -1,0 +1,12 @@
+{
+  "name": "fireworks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  	"start": "parcel index.html"
+  },
+  "dependencies": {
+    "vue": "^2.5.13"
+  },
+  "license": "MIT",
+},
